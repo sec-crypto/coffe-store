@@ -1,0 +1,34 @@
+/* RESET - usuwamy domyślne style przeglądarki */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* box-sizing: border-box sprawia, że padding i border 
+       są wliczane w szerokość elementu - ułatwia pracę */
+}
+/* ZMIENNE CSS - łatwa zmiana kolorów w całym projekcie */
+
+:root {
+    --primary-color: #6F4E37;
+    --secondary-color: #FFF8DC;
+    --text-dark:#333;
+    --text-light:#666;
+    --white:#ffffff;
+}
+
+/* Pytanie: Jak myślisz, po co używamy zmiennych CSS (--primary-color)?
+   Wskazówka: Co się stanie gdy zechcemy zmienić kolor w 20 miejscach? */
+
+   body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark); 
+   }
+
+   .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    /* Pytanie: Co robi "margin: 0 auto"? Wypróbuj zmienić na "margin: 0" */
+   }
