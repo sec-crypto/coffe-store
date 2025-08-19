@@ -32,3 +32,9 @@
     padding: 0 20px;
     /* Pytanie: Co robi "margin: 0 auto"? Wypróbuj zmienić na "margin: 0" */
    }
+
+   .navbar {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 1rem 0;
+   }
